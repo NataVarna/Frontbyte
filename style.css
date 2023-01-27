@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f7;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url("fonts/Roboto-Light.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("fonts/Roboto-Light.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url("fonts/Roboto-Bold.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("fonts/Roboto-Bold.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url("fonts/Roboto-Black.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("fonts/Roboto-Black.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    height: auto;
+    background-image: url(images/img-header.jpg);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.header__menu {
+    flex-grow: 1;
+}
+
+.header__list {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.header__item {
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #f4f4f7;
+}
+
+.header__lang {
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header__lang:last-child {
+    margin-right: 60px;
+}
+
+.header__button {
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    color: #f4f4f7;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-right: 11px;
+    padding-bottom: 10px;
+}
+
+.header__button--active {
+    border: 1px solid rgba(244,244,247, .5);
+    border-radius: 5px;
+    border-radius: 50%;
+}
