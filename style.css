@@ -196,3 +196,136 @@ h1 {
     padding-left: 180px;
     fill: red;
 }
+
+.about {
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding-bottom: 137px;
+}
+
+.about__title {
+    font-size: 60px;
+    color: #2d2d42;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    line-height: 65px;
+    letter-spacing: -0.75px;
+    font-weight: 900;
+}
+
+.about__text {
+    font-size: 30px;
+    color: #2d2d42;
+    padding-left: 200px;
+    padding-bottom: 85px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+}
+
+.about__list {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+}
+
+.about__item {
+    margin-right: 60px;
+}
+
+.about__item:last-child {
+    margin-right: 0px;
+}
+
+.about__item:first-child {
+    padding-left: 200px;
+}
+
+.about__picture {
+    display: block;
+    margin-bottom: 30px;
+    background-color: #63c9e0;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.about__picture--center {
+    background-color: #f47e3d;
+}
+
+.about__picture--right {
+    background-color: #d04b9b;
+}
+
+.about__image {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 21px;
+    padding-bottom: 17px;
+}
+
+.about__image--center {
+    padding-top: 17px;
+    padding-left: 37px;
+    padding-right: 29px;
+    padding-bottom: 14px;
+}
+
+.about__image--right {
+    padding-top: 19px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 28px;
+}
+
+.about__description {
+    color: #2d2d42;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    width: 240px;
+
+}
+
+.about__title--light {
+    padding-top: 70px;
+    padding-bottom: 45px;
+    color: #c0c6c8;
+}
+
+.about__list2 {
+    height: 270px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.about__item2 {
+  max-width: 380px;
+  color: #2d2d42;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 30px;
+  list-style-type: none;
+  position: relative;
+}
+
+.about__item2:before {
+    content: "";
+    position: absolute;
+    left: -60px;
+    top: 15px;
+    width: 30px;
+    height: 1px;
+    background-color: #64cae1;
+
+}
