@@ -9,12 +9,15 @@
     <link rel="preload" href="fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-    <header class="header container">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
         <div class="header__logo">
-            <a href="#">
-                <img src="images/img-logo-desktop-light.svg"/>
+            <a href="/">
+                <img src="images/img-logo-desktop-light.svg" alt="logo">
             </a>
         </div>
         <nav class="header__menu">
@@ -34,6 +37,8 @@
                 <li class="header__lang"><button class="header__button">Ru</button></li>
            </ul>
         </div>
+    </div>
+    </div>
     </header>
     <main>
         <section class="intro container">
@@ -41,12 +46,13 @@
                 and develop our own products in sports and iHealth industry</h2>
             <p class="intro__text">We put technology and sport together to create the world's most efficient
                 and popular sports apps.</p>
-            <button class="intro__button">Drop us a line
-                <img class="intro__img" src="images/ic-next.svg" alt="next"/>
+            <button class="button">Drop us a line
+                <img class="intro__img" src="images/ic-next.svg" alt="next">
             </button>
         </section>
         <section class="about">
             <div class="container">
+                <div class="about__wrapper">
                 <div class="about__content">
                     <h2 class="about__title">We combine high level of professionalism and individual approach</h2>
                     <p class="about__text">We have subject domain expertise in various aspects</p>
@@ -83,18 +89,19 @@
                     <li class="about__item2">Video and motion design</li>
                 </ul>
             </div>
+            </div>
         </section>
         <section class="work">
             <div class="container">
                 <h2 class="work__title">Our Work</h2>
                 <p class="work__text">We change the way businesses and industries operate.</p>
-            <picture class="work__pic">
+            <div class="work__pic">
                 <img class="work__img" src="images/vid-birdieeyes.jpg" alt="smartphone">
                 <div class="work__block">
                     <h3 class="work__block-title">BirdieEyes</h3>
                     <p class="work__block-text">We have introduced AR technology into one of the most traditional games and made it even more interesting</p>
                 </div>
-            </picture>
+            </div>
             <div class="work__project">
             <article class="work__card">
                 <img class="work__card-img" src="images/img-upsport.jpg" alt="smartphone">
@@ -117,13 +124,13 @@
                 <p class="work__card-text">Groundbreaking defence and aerospace systems</p>
             </article>
         </div>
-        <picture class="work__pic">
+        <div class="work__pic">
             <img class="work__img" src="images/img-team-home.jpg" alt="team">
             <div class="work__block work__block--bottom">
                 <h3 class="work__block-title work__block-title--bottom">our team</h3>
                 <p class="work__block-text work__block-text--bottom">We are united by our passion to create unique and efficient digital products</p>
             </div>
-        </picture>
+        </div>
         </div>
         </section>
         <section class="inside">
@@ -136,8 +143,13 @@
                         <h3 class="inside__title inside__title--small">Press about us</h3>
                         <p class="inside__text inside__text--block">AR golf platform BirdieEyes raises $300 million at $2.7 billion valuation</p>
                         <picture class="inside__pic">
-                            <img class="inside__tc">
+                            <img class="inside__tc" src="images/tc.svg" alt="tc">
                         </picture>
+                        <button class="inside__button inside__button--active"></button>
+                        <button class="inside__button"></button>
+                        <button class="inside__button"></button>
+                        <button class="inside__button"></button>
+                        <button class="inside__button"></button>
                     </div>
                 </div>
                 <div class="inside__news">
@@ -160,8 +172,61 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <picture class="footer__map">
+                <img src="images/img-map.svg" alt="map">
+            </picture>
+                <div class="footer__wrapper2">
+                    <div class="footer__social">
+                        <h2 class="footer__title">Contacts</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <picture class="footer__picture">
+                                    <img class="footer__img" src="images/ic-linkedin-white.svg" alt="linkedin">
+                                </picture>
+                            </li>
+                            <li class="footer__item">
+                                <picture class="footer__picture">
+                                    <img class="footer__img" src="images/ic-facebook-white.svg" alt="facebook">
+                                </picture>
+                            </li>
+                            <li class="footer__item">
+                                <picture class="footer__picture">
+                                    <img class="footer__img" src="images/ic-instagram-white.svg" alt="instagram">
+                                </picture>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="footer__text">Our head office is located in Norway.
+                    Research and development center is located in Belarus.
+                    </p>
+                    <div class="footer__address">
+                        <div class="footer__norway">
+                            <h3 class="footer__country">Norway</h3>
+                            <p class="footer__city">Kristiansand</p>
+                            <address class="footer__street">Vestre strandgate, 23, 4th and 6th floor N-4611</address>
+                            <a class="footer__email" href="mailto:contact@frontbyte.no">contact@frontbyte.no</a>
+                            <a class="footer__telephone" href="tel:+4741636983">+47 416 36 983</a>
+                        </div>
+                    <div class="footer__belarus">
+                        <h3 class="footer__country">Belarus</h3>
+                        <p class="footer__city">Minsk</p>
+                        <address class="footer__street">Dombrovskaya str., 9, оffice 10.2.2</address>
+                        <a class="footer__email" href="mailto:contact@frontbyte.by">contact@frontbyte.by</a>
+                        <a class="footer__telephone" href="tel:+375291393336">+375 29 1393336</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer__footer">
+                    <button class="button button--color">Drop us a line
+                        <img class="intro__img" src="images/ic-next.svg" alt="next">
+                    </button>
+                    <p class="footer__copyright">© 2008–2018 Frontbyte</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
