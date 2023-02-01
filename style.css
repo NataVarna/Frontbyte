@@ -202,9 +202,10 @@ body {
     justify-content: end;
     color: var(--pale-grey);
     font-weight: 300;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
-.intro__img {
+.button__img {
     padding-left: 180px;
 }
 
@@ -677,6 +678,7 @@ body {
     font-size: 15px;
     display: block;
     margin-bottom: 7px;
+    cursor: pointer;
 }
 
 .footer__telephone {
