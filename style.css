@@ -585,7 +585,7 @@ body {
 .footer__wrapper {
     background-color: #000000;
     position: relative;
-    z-index: -2;
+    z-index: 0;
 }
 
 .footer__wrapper2 {
