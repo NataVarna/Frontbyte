@@ -1,9 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="26" height="61" viewBox="0 0 26 61">
-    <g fill="none" fill-rule="evenodd">
-        <path stroke="#2E2E41" stroke-width="2" d="M18.5 46.192l3.686 1.562 1.883-3.3-7.917-22.82"/>
-        <path fill="#FFF" d="M1.798 2.588c-1.763 1.309.477 5.789 1.88 8.212a28.608 28.608 0 0 1 8.467-.078c1.405-2.44 3.58-6.84 1.832-8.134 0 0-5.158-3.573-12.179 0"/>
-        <path stroke="#2E2E41" stroke-width="2" d="M1.798 2.588c-1.763 1.309.477 5.789 1.88 8.212a28.608 28.608 0 0 1 8.467-.078c1.405-2.44 3.58-6.84 1.832-8.134 0 0-5.158-3.573-12.179 0z"/>
-        <path fill="#FFF" d="M4.593 14.919L1.04 52.054l7.065 7.022 6.63-7.022-3.56-37.206"/>
-        <path stroke="#2E2E41" stroke-width="2" d="M4.593 14.919L1.04 52.054l7.065 7.022 6.63-7.022-3.56-37.206"/>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F47E3D;}
+	.st1{fill:none;stroke:#2E2E41;stroke-width:2;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g>
+	<rect class="st0" width="90" height="90"/>
+</g>
+<g>
+	<g>
+		<path class="st1" d="M55.9,61.2l3.7,1.6l1.9-3.3l-7.9-22.8"/>
+		<path class="st2" d="M39.2,17.5c-1.8,1.3,0.5,5.8,1.9,8.2c2.8-0.4,5.7-0.5,8.5-0.1c1.4-2.4,3.6-6.8,1.8-8.1
+			C51.4,17.5,46.3,14,39.2,17.5"/>
+		<path class="st1" d="M39.2,17.5c-1.8,1.3,0.5,5.8,1.9,8.2c2.8-0.4,5.7-0.5,8.5-0.1c1.4-2.4,3.6-6.8,1.8-8.1
+			C51.4,17.5,46.3,14,39.2,17.5z"/>
+		<path class="st2" d="M42,29.9L38.5,67l7.1,7l6.6-7l-3.6-37.2"/>
+		<path class="st1" d="M42,29.9L38.5,67l7.1,7l6.6-7l-3.6-37.2"/>
+	</g>
+</g>
 </svg>

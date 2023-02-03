@@ -15,26 +15,26 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <div class="header__logo">
+                <div class="logo">
                     <a href="#">
-                        <img src="images/img-logo-desktop-light.svg" alt="logo">
+                        <img src="images/img-logo-desktop-light.svg" alt="">
                     </a>
                 </div>
-                <nav class="header__menu">
-                    <ul class="header__list">
-                        <li class="header__item"><a class="header__link" href="#">About</a></li>
-                        <li class="header__item"><a class="header__link" href="#">Projects</a></li>
-                        <li class="header__item"><a class="header__link" href="#">Services</a></li>
-                        <li class="header__item"><a class="header__link" href="#">Our team</a></li>
-                        <li class="header__item"><a class="header__link" href="#">Events</a></li>
-                        <li class="header__item"><a class="header__link" href="#">Contacts</a></li>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Our team</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Events</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
                     </ul>
                 </nav>
-                <div class="header__language">
-                    <ul class="header__list">
-                        <li class="header__lang"><button class="header__button">No</button></li>
-                        <li class="header__lang"><button class="header__button header__button--active">En</button></li>
-                        <li class="header__lang"><button class="header__button">Ru</button></li>
+                <div class="language">
+                    <ul class="language__list">
+                        <li class="language__item"><button class="language__button">No</button></li>
+                        <li class="language__item"><button class="language__button language__button--active">En</button></li>
+                        <li class="language__item"><button class="language__button">Ru</button></li>
                    </ul>
                 </div>
             </div>
@@ -44,8 +44,8 @@
         <section class="intro">
             <div class="container">
                 <div class="intro__wrapper">
-                    <h2 class="intro__title">We provide digital services
-                        and develop our own products in sports and iHealth industry</h2>
+                    <h1 class="intro__title">We provide digital services
+                        and develop our own products in sports and iHealth industry</h1>
                     <p class="intro__text">We put technology and sport together to create the world's most efficient
                         and popular sports apps.</p>
                     <button class="button">Drop us a line
@@ -63,19 +63,19 @@
                         <ul class="about__list">
                             <li class="about__item">
                                 <picture class="about__picture">
-                                    <img class="about__image" src="images/ic-project.svg" alt="project">
+                                    <img class="about__image" src="images/ic-project.svg" alt="">
                                 </picture>
                                 <p class="about__description">Project management for simple and complex projects</p>
                             </li>
                             <li class="about__item">
-                                <picture class="about__picture about__picture--center">
-                                    <img class="about__image about__image--center" src="images/ic-hire.svg" alt="hire">
+                                <picture class="about__picture">
+                                    <img class="about__image" src="images/ic-hire.svg" alt="">
                                 </picture>
                                 <p class="about__description">Management for hire</p>
                             </li>
                             <li class="about__item">
-                                <picture class="about__picture about__picture--right">
-                                    <img class="about__image about__image--right" src="images/ic-digital.svg" alt="digital">
+                                <picture class="about__picture">
+                                    <img class="about__image" src="images/ic-digital.svg" alt="">
                                 </picture>
                                 <p class="about__description">Digital transformation</p>
                             </li>
@@ -101,79 +101,117 @@
             <div class="container">
                 <h2 class="work__title">Our Work</h2>
                 <p class="work__text">We change the way businesses and industries operate.</p>
-            <div class="work__pic">
-                <img class="work__img" src="images/vid-birdieeyes.jpg" alt="smartphone">
-                <div class="work__block">
-                    <h3 class="work__block-title">BirdieEyes</h3>
-                    <p class="work__block-text">We have introduced AR technology into one of the most traditional games and made it even more interesting</p>
+                <div class="work__project">
+                    <ul class="work__list">
+                        <li class="work__item">
+                            <article class="card card--big">
+                                <a class="card__link" href="#">
+                                    <picture class="card__pic card__pic--big">
+                                        <img class="card__img" src="images/vid-birdieeyes.jpg" alt="">
+                                    </picture>
+                                    <div class="card__block">
+                                        <h3 class="card__title card__title--color">BirdieEyes</h3>
+                                        <p class="card__text card__text--color">We have introduced AR technology into one of the most traditional games and made it
+                                        even more interesting</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="work__item">
+                            <article class="card">
+                                <a class="card__link" href="#">
+                                    <picture class="card__pic">
+                                        <img class="card__img" src="images/img-upsport.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <h3 class="card__title">UpSport</h3>
+                                <p class="card__text">Live communication platform that has changed the game for sport clubs, parents and their
+                                    kids</p>
+                            </article>
+                        </li>
+                        <li class="work__item">
+                            <article class="card">
+                                <a class="card__link" href="#">
+                                    <picture class="card__pic">
+                                        <img class="card__img" src="images/img-xland.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <h3 class="card__title">XLand</h3>
+                                <p class="card__text">Digital presence for the first indoor activity park in Norway</p>
+                            </article>
+                        </li>
+                        <li class="work__item">
+                            <article class="card">
+                                <a class="card__link" href="#">
+                                    <picture class="card__pic">
+                                        <img class="card__img" src="images/img-phonero.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <h3 class="card__title">phonero</h3>
+                                <p class="card__text">Interfaces for the cloud based switchboard applications as well as various desktop and mobile applications</p>
+                            </article>
+                        </li>
+                        <li class="work__item">
+                            <article class="card">
+                                <a class="card__link" href="#">
+                                    <picture class="card__pic">
+                                        <img class="card__img" src="images/img-kongsberg.jpg" alt="">
+                                    </picture>
+                                </a>
+                                <h3 class="card__title">Kongsberg Group</h3>
+                                <p class="card__text">Groundbreaking defence and aerospace systems</p>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team">
+                    <picture class="team__pic">
+                        <img class="team__img" src="images/img-team-home.jpg" alt="">
+                    </picture>
+                    <div class="team__block">
+                        <h3 class="team__title">our team</h3>
+                        <p class="team__text">We are united by our passion to create unique and efficient digital products</p>
+                    </div>
                 </div>
             </div>
-            <div class="work__project">
-            <article class="work__card">
-                <img class="work__card-img" src="images/img-upsport.jpg" alt="smartphone">
-                <h3 class="work__card-title">UpSport</h3>
-                <p class="work__card-text">Live communication platform that has changed the game for sport clubs, parents and their kids</p>
-            </article>
-            <article class="work__card">
-                <img class="work__card-img" src="images/img-xland.jpg" alt="xland">
-                <h3 class="work__card-title">XLand</h3>
-                <p class="work__card-text">Digital presence for the first indoor activity park in Norway</p>
-            </article>
-            <article class="work__card">
-                <img class="work__card-img" src="images/img-phonero.jpg" alt="phonero">
-                <h3 class="work__card-title">phonero</h3>
-                <p class="work__card-text">Interfaces for the cloud based switchboard applications as well as various desktop and mobile applications</p>
-            </article>
-            <article class="work__card">
-                <img class="work__card-img" src="images/img-kongsberg.jpg" alt="kongsberg">
-                <h3 class="work__card-title">Kongsberg Group</h3>
-                <p class="work__card-text">Groundbreaking defence and aerospace systems</p>
-            </article>
-        </div>
-        <div class="work__pic">
-            <img class="work__img" src="images/img-team-home.jpg" alt="team">
-            <div class="work__block work__block--bottom">
-                <h3 class="work__block-title work__block-title--bottom">our team</h3>
-                <p class="work__block-text work__block-text--bottom">We are united by our passion to create unique and efficient digital products</p>
-            </div>
-        </div>
-        </div>
         </section>
         <section class="inside">
             <div class="container">
                 <h2 class="inside__title">Inside Frontbyte</h2>
                 <p class="inside__text">We change the way businesses and industries operate.</p>
-                <div class="inside__wrapper">
-                    <img class="inside__img" src="images/img-inside-press.jpg" alt="smartphone">
-                    <div class="inside__block">
-                        <h3 class="inside__title inside__title--small">Press about us</h3>
-                        <p class="inside__text inside__text--block">AR golf platform BirdieEyes raises $300 million at $2.7 billion valuation</p>
-                        <picture class="inside__pic">
-                            <img class="inside__tc" src="images/tc.svg" alt="tc">
+                <div class="press">
+                    <picture class="press__pic">
+                        <img class="press__img" src="images/img-inside-press.jpg" alt="">
+                    </picture>
+                    <div class="press__block">
+                        <h3 class="press__title">Press about us</h3>
+                        <p class="press__text">AR golf platform BirdieEyes raises $300 million at $2.7 billion valuation</p>
+                        <picture class="press__wrapper">
+                            <img class="press__icon" src="images/icon-tc.svg" alt="">
                         </picture>
-                        <button class="inside__button inside__button--active"></button>
-                        <button class="inside__button"></button>
-                        <button class="inside__button"></button>
-                        <button class="inside__button"></button>
-                        <button class="inside__button"></button>
+                        <button class="press__button press__button--active"></button>
+                        <button class="press__button"></button>
+                        <button class="press__button"></button>
+                        <button class="press__button"></button>
+                        <button class="press__button"></button>
                     </div>
                 </div>
-                <div class="inside__news">
-                    <h3 class="inside__title inside__title--small">Latest news</h3>
-                    <ul class="inside__list">
-                        <li class="inside__item">
-                        <p class="inside__description">How to use email marketing to connect with your users</p>
-                        <time class="inside__date" datetime="2018-12-19">Dec 19, 2018</time>
-                    </li>
-                    <li class="inside__item">
-                        <p class="inside__description">How to use email marketing to connect with your users</p>
-                        <time class="inside__date" datetime="2018-12-19">Dec 19, 2018</time>
-                    </li>
-                    <li class="inside__item">
-                        <p class="inside__description">How to use email marketing to connect with your users</p>
-                        <time class="inside__date" datetime="2018-12-19">Dec 19, 2018</time>
-                    </li>
-                </ul>
+                <div class="news">
+                    <h3 class="news__title">Latest news</h3>
+                    <ul class="news__list">
+                        <li class="news__item">
+                            <p class="news__text"><a class="news__link" href="#">How to use email marketing to connect with your users</a></p>
+                            <time class="news__date" datetime="2018-12-19">Dec 19, 2018</time>
+                        </li>
+                        <li class="news__item">
+                            <p class="news__text"><a class="news__link" href="#">How to use email marketing to connect with your users</a></p>
+                            <time class="news__date" datetime="2018-12-19">Dec 19, 2018</time>
+                        </li>
+                        <li class="news__item">
+                            <p class="news__text"><a class="news__link" href="#">How to use email marketing to connect with your users</a></p>
+                            <time class="news__date" datetime="2018-12-19">Dec 19, 2018</time>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -181,42 +219,51 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <picture class="footer__map">
-                <img src="images/img-map.svg" alt="map">
-            </picture>
-                <div class="footer__wrapper2">
-                    <div class="footer__social">
-                        <h2 class="footer__title">Contacts</h2>
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <picture class="footer__picture">
-                                    <img class="footer__img" src="images/ic-linkedin-white.svg" alt="linkedin">
-                                </picture>
-                            </li>
-                            <li class="footer__item">
-                                <li class="footer__item">
-                                <picture class="footer__picture">
-                                    <img class="footer__img" src="images/ic-facebook-white.svg" alt="facebook">
-                                </picture>
-                            </li>
-                            <li class="footer__item">
-                                <picture class="footer__picture">
-                                    <img class="footer__img" src="images/ic-instagram-white.svg" alt="instagram">
-                                </picture>
-                            </li>
-                        </ul>
+                <div class="footer__block">
+                    <picture class="footer__map">
+                        <img class="footer__image" src="images/img-map.svg" alt="">
+                    </picture>
+                    <div class="footer__circle">
                     </div>
-                    <p class="footer__text">Our head office is located in Norway.
-                    Research and development center is located in Belarus.
-                    </p>
-                    <div class="footer__address">
-                        <div class="footer__norway">
-                            <h3 class="footer__country">Norway</h3>
-                            <p class="footer__city">Kristiansand</p>
-                            <address class="footer__street">Vestre strandgate, 23, 4th and 6th floor N-4611</address>
-                            <a class="footer__email" href="mailto:contact@frontbyte.no">contact@frontbyte.no</a>
-                            <a class="footer__telephone" href="tel:+4741636983">+47 416 36 983</a>
-                        </div>
+                    <div class="footer__circle footer__circle--small">
+                    </div>
+                </div>
+                <div class="footer__contact">
+                    <h2 class="footer__title">Contacts</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                <picture class="footer__pic">
+                                    <img class="footer__img" src="images/ic-linkedin-white.svg" alt="">
+                                </picture>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                <picture class="footer__pic">
+                                    <img class="footer__img" src="images/ic-facebook-white.svg" alt="">
+                                </picture>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                <picture class="footer__pic">
+                                    <img class="footer__img" src="images/ic-instagram-white.svg" alt="">
+                                </picture>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="footer__text">Our head office is located in Norway.
+                    Research and development center is located in Belarus.</p>
+                <div class="footer__address">
+                    <div class="footer__norway">
+                        <h3 class="footer__country">Norway</h3>
+                        <p class="footer__city">Kristiansand</p>
+                        <address class="footer__street">Vestre strandgate, 23, 4th and 6th floor N-4611</address>
+                        <a class="footer__email" href="mailto:contact@frontbyte.no">contact@frontbyte.no</a>
+                        <a class="footer__telephone" href="tel:+4741636983">+47 416 36 983</a>
+                    </div>
                     <div class="footer__belarus">
                         <h3 class="footer__country">Belarus</h3>
                         <p class="footer__city">Minsk</p>
@@ -224,11 +271,10 @@
                         <a class="footer__email" href="mailto:contact@frontbyte.by">contact@frontbyte.by</a>
                         <a class="footer__telephone" href="tel:+375291393336">+375 29 1393336</a>
                     </div>
-                    </div>
                 </div>
-                <div class="footer__footer">
+                <div class="footer__bottom">
                     <button class="button button--color">Drop us a line
-                        <img class="button__img" src="images/ic-next.svg" alt="next">
+                           <img class="button__img" src="images/ic-next.svg" alt="">
                     </button>
                     <p class="footer__copyright">© 2008–2018 Frontbyte</p>
                 </div>
