@@ -16,8 +16,10 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="logo">
-                    <a href="#">
-                        <img src="images/img-logo-desktop-light.svg" alt="">
+                    <a class="logo__link" href="#">
+                        <picture class="logo__pic">
+                            <img class="logo__img" src="images/img-logo-desktop-light.svg" alt="">
+                        </picture>
                     </a>
                 </div>
                 <nav class="menu">
@@ -44,12 +46,12 @@
         <section class="intro">
             <div class="container">
                 <div class="intro__wrapper">
-                    <h1 class="intro__title">We provide digital services
+                    <h1 class="title">We provide digital services
                         and develop our own products in sports and iHealth industry</h1>
                     <p class="intro__text">We put technology and sport together to create the world's most efficient
                         and popular sports apps.</p>
                     <button class="button">Drop us a line
-                        <img class="button__img" src="images/ic-next.svg" alt="next">
+                            <img class="button__img" src="images/ic-next.svg" alt="next">
                     </button>
                 </div>
             </div>
@@ -58,7 +60,7 @@
             <div class="container">
                 <div class="about__wrapper">
                     <div class="about__content">
-                        <h2 class="about__title">We combine high level of professionalism and individual approach</h2>
+                        <h2 class="title title--color">We combine high level of professionalism and individual approach</h2>
                         <p class="about__text">We have subject domain expertise in various aspects</p>
                         <ul class="about__list">
                             <li class="about__item">
@@ -107,6 +109,7 @@
                             <article class="card card--big">
                                 <a class="card__link" href="#">
                                     <picture class="card__pic card__pic--big">
+                                        <source srcset="images/vid-birdieeyes.webp" type="image/webp">
                                         <img class="card__img" src="images/vid-birdieeyes.jpg" alt="">
                                     </picture>
                                     <div class="card__block">
@@ -121,10 +124,11 @@
                             <article class="card">
                                 <a class="card__link" href="#">
                                     <picture class="card__pic">
+                                        <source srcset="images/img-upsport.webp" type="image/webp">
                                         <img class="card__img" src="images/img-upsport.jpg" alt="">
                                     </picture>
-                                </a>
                                 <h3 class="card__title">UpSport</h3>
+                                </a>
                                 <p class="card__text">Live communication platform that has changed the game for sport clubs, parents and their
                                     kids</p>
                             </article>
@@ -133,10 +137,11 @@
                             <article class="card">
                                 <a class="card__link" href="#">
                                     <picture class="card__pic">
+                                        <sourse srcset="images/img-xland.webp" type="image/webp">
                                         <img class="card__img" src="images/img-xland.jpg" alt="">
                                     </picture>
-                                </a>
                                 <h3 class="card__title">XLand</h3>
+                                </a>
                                 <p class="card__text">Digital presence for the first indoor activity park in Norway</p>
                             </article>
                         </li>
@@ -144,10 +149,11 @@
                             <article class="card">
                                 <a class="card__link" href="#">
                                     <picture class="card__pic">
+                                        <source srcset="images/img-phonero.webp" type="image/webp">
                                         <img class="card__img" src="images/img-phonero.jpg" alt="">
                                     </picture>
-                                </a>
                                 <h3 class="card__title">phonero</h3>
+                                </a>
                                 <p class="card__text">Interfaces for the cloud based switchboard applications as well as various desktop and mobile applications</p>
                             </article>
                         </li>
@@ -155,10 +161,11 @@
                             <article class="card">
                                 <a class="card__link" href="#">
                                     <picture class="card__pic">
+                                        <source srcset="images/img-kongsberg.webp" type="image/webp">
                                         <img class="card__img" src="images/img-kongsberg.jpg" alt="">
                                     </picture>
-                                </a>
                                 <h3 class="card__title">Kongsberg Group</h3>
+                                </a>
                                 <p class="card__text">Groundbreaking defence and aerospace systems</p>
                             </article>
                         </li>
@@ -166,12 +173,15 @@
                 </div>
                 <div class="team">
                     <picture class="team__pic">
+                        <source srcset="images/img-team-home.webp" type="image/webp">
                         <img class="team__img" src="images/img-team-home.jpg" alt="">
                     </picture>
-                    <div class="team__block">
-                        <h3 class="team__title">our team</h3>
-                        <p class="team__text">We are united by our passion to create unique and efficient digital products</p>
-                    </div>
+                    <a class="team__link" href="#">
+                        <div class="team__block">
+                            <h3 class="team__title">our team</h3>
+                            <p class="team__text">We are united by our passion to create unique and efficient digital products</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -181,11 +191,14 @@
                 <p class="inside__text">We change the way businesses and industries operate.</p>
                 <div class="press">
                     <picture class="press__pic">
+                        <sourse srcset="images/img-inside-press.webp" alt="">
                         <img class="press__img" src="images/img-inside-press.jpg" alt="">
                     </picture>
                     <div class="press__block">
-                        <h3 class="press__title">Press about us</h3>
-                        <p class="press__text">AR golf platform BirdieEyes raises $300 million at $2.7 billion valuation</p>
+                        <a class="press__link" href="#">
+                            <h3 class="press__title">Press about us</h3>
+                            <p class="press__text">AR golf platform BirdieEyes raises $300 million at $2.7 billion valuation</p>
+                        </a>
                         <picture class="press__wrapper">
                             <img class="press__icon" src="images/icon-tc.svg" alt="">
                         </picture>
@@ -225,7 +238,7 @@
                     </picture>
                     <div class="footer__circle">
                     </div>
-                    <div class="footer__circle footer__circle--small">
+                    <div class="footer__circle footer__circle--small footer__circle--color">
                     </div>
                 </div>
                 <div class="footer__contact">
